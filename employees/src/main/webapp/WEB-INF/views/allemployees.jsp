@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Add New Employees in ETLhive</a>
+	<a href="<c:url value='/new' />">Add New Employees in ETLhive..</a>
 </body>
 </html>
