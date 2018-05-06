@@ -20,7 +20,7 @@
 	<h2>List of farzi Employees in ABC</h2>	
 	<table>
 		<tr>
-			<td>NAME</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>NAME</td><td>Jail jane ki Date</td><td>Salary</td><td>SSN</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
