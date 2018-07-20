@@ -20,7 +20,7 @@
 	<h2>List of Employees in ETLHive</h2>	
 	<table>
 		<tr>
-			<td>Employee NAME</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>Employee NAME</td><td>Joining Date</td><td>Salary</td><td>SSN #</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
