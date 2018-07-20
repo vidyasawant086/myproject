@@ -17,10 +17,10 @@
 
 
 <body>
-	<h2>List of My Employees in XYJ Portal</h2>	
+	<h2>List of My Employees in ETLHive</h2>	
 	<table>
 		<tr>
-			<td>NAME</td><td>Jail jane ki Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>NAME</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Add New Employees in AB and Co. Work in progress...</a>
+	<a href="<c:url value='/new' />">Add New Employees in ETLHive</a>
 </body>
 </html>
