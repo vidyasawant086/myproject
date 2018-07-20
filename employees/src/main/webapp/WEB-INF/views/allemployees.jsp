@@ -17,7 +17,7 @@
 
 
 <body>
-	<h2>List of Employees in ETLHive</h2>	
+	<h2>Employees in ETLHive</h2>	
 	<table>
 		<tr>
 			<td>Employee NAME</td><td>Joining Date</td><td>Salary</td><td>SSN #</td><td></td>
