@@ -17,10 +17,10 @@
 
 
 <body>
-	<h2>Employees in ETLHive</h2>	
+	<h2>Employees ETLHive</h2>	
 	<table>
 		<tr>
-			<td>Employees NAME</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>Employee NAME</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
