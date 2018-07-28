@@ -26,7 +26,7 @@
 			<tr>
 			<td>${employee.name}</td>
 			<td>${employee.joiningDate}</td>
-			<td>${employee.salary}</td>
+			<td>${student.salary}</td>
 			<td><a href="<c:url value='/edit-${employee.ssn}-employee' />">${employee.ssn}</a></td>
 			<td><a href="<c:url value='/delete-${employee.ssn}-employee' />">delete</a></td>
 			</tr>
