@@ -20,7 +20,7 @@
 	<h2>Employees ETLHive</h2>	
 	<table>
 		<tr>
-			<td>Employee "shubham"</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
+			<td>Employee "puru"</td><td>Joining Date</td><td>Salary</td><td>SSN</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Add New Employees in ETLHive</a>
+	<a href="<c:url value='/new' />">Add New Employees in Etlhive</a>
 </body>
 </html>
