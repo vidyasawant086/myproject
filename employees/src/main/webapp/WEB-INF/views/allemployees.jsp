@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Employees Enrollment for Sukhi</title>
+	<title>Employees Enrollment for Richa</title>
 
 	<style>
 		tr:first-child{
