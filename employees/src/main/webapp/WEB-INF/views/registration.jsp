@@ -7,7 +7,7 @@
 
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Employee Registration Form New</title>
+	<title>Employee Registration Form New1.0</title>
 
 <style>
 
