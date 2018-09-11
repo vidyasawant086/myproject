@@ -44,7 +44,7 @@
 		    </tr>
 	
 			<tr>
-				<td><label for="ssn">Employee SSN: </label> </td>
+				<td><label for="ssn">Employee SSN Company: </label> </td>
 				<td><form:input path="ssn" id="ssn"/></td>
 				<td><form:errors path="ssn" cssClass="error"/></td>
 		    </tr>
