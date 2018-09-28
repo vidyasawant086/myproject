@@ -10,12 +10,20 @@ pipeline {
     stages {
 			stage('Build') {
 			  parallel {
-			    stage('Build On Windows') {
+			    stage('Build On Linux1') {
 			    agent {
-				   label "windows"
+				   label "linux1"
 				 }
 			      steps {
-                     bat "run-tests.bat"
+                     sh "cd employees && mvn clean install"
+                  }
+				}
+				stage('Build On Linux2') {
+			    agent {
+				   label "linux2"
+				 }
+			      steps {
+                     sh "cd employees && mvn clean install"
                   }
 				}
 				stage('Build On Linux') {
