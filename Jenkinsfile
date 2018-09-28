@@ -20,9 +20,7 @@ pipeline {
 				sh "cd employees && mvn clean test"
 							
 			}
-        }
-		
-	post {
+		post {
 		always {
 		emailext body: 'Jenkins Pipeline Status',
 		attachLog: true,
@@ -32,5 +30,6 @@ pipeline {
 		to: "${params.EMAIL_RECIPIENTS}"
 				}
 		}
+        }
     }
 }
