@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent master
 
     stages {
         stage('Build') {
@@ -12,12 +12,6 @@ pipeline {
             steps {
                 echo 'Testing..'
 		sh "cd employees && mvn clean test"
-            }
-        }
-        stage('Deploy') {
-            steps {
-                echo 'Deploying....'
-		sh "cd employees && mvn deploy"
             }
         }
     }
