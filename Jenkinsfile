@@ -2,7 +2,7 @@ pipeline {
     agent any
 
 	   parameters {
-        string(defaultValue: "$emailRecipients",
+        string(defaultValue: "sometest@example.com",
                 description: 'List of email recipients',
                 name: 'EMAIL_RECIPIENTS')
 		}
