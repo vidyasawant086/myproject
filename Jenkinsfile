@@ -28,22 +28,21 @@ pipeline {
 				    }
 				}
 				}
+				}
 			stage('Test') {
                steps {
                  echo 'Testing..'
-				 sh "cd employees && mvn clean test"
-							
+				 sh "cd employees && mvn clean test"	
 				}
-	post {
-	 always {
-		emailext body: 'Jenkins Pipeline Status',
-		compressLog: true,
-		mimeType: 'text/html',
-		subject: "Pipeline Build ${BUILD_NUMBER}",
-		to: "${params.EMAIL_RECIPIENTS}"
-		}
-	}
-   }
-}
+			  post {
+			    always {
+			    emailext body: 'Jenkins Pipeline Status',
+			    compressLog: true,
+			    mimeType: 'text/html',
+			    subject: "Pipeline Build ${BUILD_NUMBER}",
+			    to: "${params.EMAIL_RECIPIENTS}"
+				}
+			  }
+			}
 }
 }
