@@ -7,8 +7,11 @@ pipeline {
             }
             steps {
                 sh 'mvn --version'
-		sh 'cd employees && mvn clean install'
+                sh 'cd employees && mvn clean install'
                 sh 'cd employees && mvn clean test'
+            }
+			steps {
+	    		sh 'cd employees && mvn clean test'
             }
         }
         stage('Front-end') {
