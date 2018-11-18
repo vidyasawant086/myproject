@@ -20,7 +20,7 @@
 	<h2>Employees Table</h2>	
 	<table>
 		<tr>
-			<td>Employee "Name_of_Employee"</td><td>Joining Date</td><td>Cost to Company</td><td>ID</td><td></td>
+			<td>Employee "Employee_Name"</td><td>Joining_Date</td><td>Cost_to_Company</td><td>iD</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Added 2  New Employees in Github_abhilash </a>
+	<a href="<c:url value='/new' />">Testing code changes </a>
 </body>
 </html>
