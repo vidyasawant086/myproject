@@ -23,11 +23,13 @@
    <distributionManagement>
       <snapshotRepository>
          <id>repo_url</id>
+	 <name>snapshots</name>
          <url>http://34.73.23.245:8081/repository/maven-snapshots/</url>
       </snapshotRepository>
 	   
       <repository>
          <id>repo_url</id>
+	 <name>releases</name>
          <url>http://34.73.23.245:8081/repository/maven-releases/</url>
       </repository>
    </distributionManagement>
