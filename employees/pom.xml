@@ -27,7 +27,13 @@
       </snapshotRepository>
    </distributionManagement>
 	
-
+<distributionManagement>
+      <snapshotRepository>
+         <id>repo_url</id>
+         <url>http://34.73.23.245:8081/repository/maven-snapshots</url>
+      </snapshotRepository>
+</distributionManagement>
+	
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
