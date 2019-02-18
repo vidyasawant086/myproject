@@ -6,7 +6,7 @@
 	<groupId>com.employees.springmvc</groupId>
 	<artifactId>employees</artifactId>
 	<packaging>war</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>employees</name>
 
 	<properties>
@@ -23,12 +23,12 @@
    <distributionManagement>
       <snapshotRepository>
          <id>repo_url</id>
-         <url>http://34.73.23.245:8081/repository/maven-snapshots</url>
+         <url>http://34.73.23.245:8081/repository/maven-snapshots/</url>
       </snapshotRepository>
 	   
       <repository>
          <id>repo_url</id>
-         <url>http://34.73.23.245:8081/repository/maven-releases</url>
+         <url>http://34.73.23.245:8081/repository/maven-releases/</url>
       </repository>
    </distributionManagement>
 	
