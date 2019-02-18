@@ -20,14 +20,14 @@
 		<dbunit.version>2.2</dbunit.version>
 	</properties>
 
-<servers>
-     <server>
-       <id>repo_url</id>
-       <username>admin</username>
-       <password>Nexus123</password>
-     </server>
- </servers>
+   <distributionManagement>
+      <snapshotRepository>
+         <id>repo_url</id>
+         <url>http://34.73.23.245:8081/repository/maven-snapshots/</url>
+      </snapshotRepository>
+   </distributionManagement>
 	
+
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
