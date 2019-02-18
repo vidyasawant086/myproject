@@ -20,6 +20,14 @@
 		<dbunit.version>2.2</dbunit.version>
 	</properties>
 
+<servers>
+     <server>
+       <id>repo_url</id>
+       <username>admin</username>
+       <password>Nexus123</password>
+     </server>
+ </servers>
+	
 	<dependencies>
 		<!-- Spring -->
 		<dependency>
