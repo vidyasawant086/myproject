@@ -7,8 +7,6 @@
 	<artifactId>employees</artifactId>
 	<packaging>war</packaging>
 	<version>2.0.0-SNAPSHOT</version>
-	<name>employees</name>
-
 	<properties>
 		<springframework.version>4.0.6.RELEASE</springframework.version>
 		<hibernate.version>4.3.6.Final</hibernate.version>
@@ -21,20 +19,6 @@
 		<build.number></build.number>
 	</properties>
 
-   <distributionManagement>
-      <snapshotRepository>
-         <id>repo_url</id>
-	 <name>snapshots</name>
-         <url>http://34.73.23.245:8081/repository/maven-snapshots/</url>
-      </snapshotRepository>
-	   
-      <repository>
-         <id>repo_url</id>
-	 <name>releases</name>
-         <url>http://34.73.23.245:8081/repository/maven-releases/</url>
-      </repository>
-   </distributionManagement>
-	
 
 	
 	<dependencies>
@@ -166,7 +150,7 @@
 					<version>2.4</version>
 					<configuration>
 						<warSourceDirectory>src/main/webapp</warSourceDirectory>
-						<warName>employees</warName>
+						<warName>${artifactId}-${version}${build.number}</warName>
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
