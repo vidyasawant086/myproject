@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Employees Enrollment for Richa</title>
+	<title>Employees Enrollment</title>
 
 	<style>
 		tr:first-child{
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Add New Employees in Github_Saurabh </a>
+	<a href="<c:url value='/new' />">Add New Employees</a>
 </body>
 </html>
