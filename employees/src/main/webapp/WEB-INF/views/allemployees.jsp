@@ -4,7 +4,7 @@
 <html>
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-	<title>Employees Enrollment for Students - @Dev environment portal</title>
+	<title>Employees Enrollment - @Dev environment portal</title>
 
 	<style>
 		tr:first-child{
