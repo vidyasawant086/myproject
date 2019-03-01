@@ -6,7 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Registration Confirmation Page</title>
-/head>
+</head>
 <body>
 	message : ${success}
 	<br/>
