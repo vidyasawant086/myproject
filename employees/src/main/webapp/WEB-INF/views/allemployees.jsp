@@ -24,8 +24,8 @@
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
-			<td>${Shashank}</td>
-			<td>${09/09/2018}</td>
+			<td>${kanika}</td>
+			<td>${02/03/2019}</td>
 			<td>${student.salary}</td>
 			<td><a href="<c:url value='/edit-${employee.ssn}-employee' />">${employee.ssn}</a></td>
 			<td><a href="<c:url value='/delete-${employee.ssn}-employee' />">delete</a></td>
