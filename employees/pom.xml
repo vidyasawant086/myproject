@@ -6,7 +6,7 @@
 	<groupId>com.employees.springmvc</groupId>
 	<artifactId>employees</artifactId>
 	<packaging>war</packaging>
-	<version>2.0.0</version>
+	<version>$VERSION</version>
 	<name>employees</name>
 
 	<properties>
@@ -153,6 +153,8 @@
 						<failOnMissingWebXml>false</failOnMissingWebXml>
 					</configuration>
 				</plugin>
+
+
 			</plugins>
 		</pluginManagement>
 		<finalName>employees</finalName>
