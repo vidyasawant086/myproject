@@ -17,7 +17,7 @@
 
 
 <body>
-	<h2>Employees Table - 2019-2020</h2>	
+	<h2>Employees Data - 2019-2020</h2>	
 	<table>
 		<tr>
 			<td>Employee Name</td><td>Joining Date</td><td>Cost to Company</td><td>ID</td><td></td>
