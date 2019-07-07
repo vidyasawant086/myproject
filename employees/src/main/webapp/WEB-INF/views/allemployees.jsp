@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Enter Employee Details</a>
+	<a href="<c:url value='/new' />">Enter Employee Details for current year</a>
 </body>
 </html>
