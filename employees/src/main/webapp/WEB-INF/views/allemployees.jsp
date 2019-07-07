@@ -17,7 +17,7 @@
 
 
 <body>
-	<h2>Employees Data - 2019-2029</h2>	
+	<h2>Employees Data for Year 2019-2029</h2>	
 	<table>
 		<tr>
 			<td>Employee Name</td><td>Joining Date</td><td>Cost to Company</td><td>ID</td><td></td>
@@ -33,6 +33,6 @@
 		</c:forEach>
 	</table>
 	<br/>
-	<a href="<c:url value='/new' />">Enter Employee Details for current year</a>
+	<a href="<c:url value='/new' />">Enter Employee Details for 10 Years</a>
 </body>
 </html>
