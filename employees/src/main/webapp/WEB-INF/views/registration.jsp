@@ -65,6 +65,6 @@
 	</form:form>
 	<br/>
 	<br/>
-	Go back Brijesh  to <a href="<c:url value='/list' />">Show me  All Employees</a>
+	Go back to <a href="<c:url value='/list' />">Show me  All Employees</a>
 </body>
 </html>
