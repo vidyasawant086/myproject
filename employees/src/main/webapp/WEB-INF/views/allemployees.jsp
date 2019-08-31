@@ -20,7 +20,7 @@
 	<h2>Employees Data - 2019-to-2025</h2>	
 	<table>
 		<tr>
-			<td>Employee Name</td><td>2019-01-28</td><td>Cost to Company</td><td>ID</td><td></td>
+			<td>Employee Name</td><td>2019-08-31</td><td>Cost to Company</td><td>ID</td><td></td>
 		</tr>
 		<c:forEach items="${employees}" var="employee">
 			<tr>
